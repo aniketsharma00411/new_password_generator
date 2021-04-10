@@ -6,4 +6,4 @@ Firefox Lockwise does not generate new passwords for some websites and does not 
 
 So, this will help generate new passwords when required.
 
-**This is not a project. This is only to make my work easier.** 
+**This is not a project. This is only to make my life easier.** 
