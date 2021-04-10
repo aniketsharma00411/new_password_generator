@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 1px solid black;
+        padding: 15px;
+        box-sizing: border-box;
+        background-color: grey;
+        width: 40%;
+        border-radius: 10px;
+      }
+      label {
+        display: block;
+        font: 2rem "Fira Sans", sans-serif;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>New Password Generator:</h1>
+    <hr />
+    <div>
+      <label for="pass">Password:</label>
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        autocomplete="new-password"
+        required
+      />
+    </div>
+    <hr />
+    <p>
+      Firefox Lockwise does not generate new passwords for some websites and
+      does not provide an option to generate new password through its app or
+      option in browser.
+      <br />
+      So, this will help generate new passwords when required.
+    </p>
+  </body>
+</html>
